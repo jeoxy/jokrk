@@ -1,0 +1,230 @@
+local espprv = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local thethingdude = Instance.new("Frame")
+local ImageLabel = Instance.new("ImageLabel")
+local nameprv = Instance.new("TextLabel")
+local boxpvrs = Instance.new("Frame")
+local boxprv2 = Instance.new("Frame")
+local boxprv3 = Instance.new("Frame")
+local boxprv4 = Instance.new("Frame")
+local boxprv1 = Instance.new("Frame")
+local healthprv = Instance.new("Frame")
+local gunprv = Instance.new("TextLabel")
+local guniprv = Instance.new("ImageLabel")
+local UIGradient = Instance.new("UIGradient")
+local outlinebox = Instance.new("Frame")
+local OutlinBox2 = Instance.new("Frame")
+local OutlinBox3 = Instance.new("Frame")
+local OutlinBox4 = Instance.new("Frame")
+local OutlinBox1 = Instance.new("Frame")
+local TopBar = Instance.new("Frame")
+local UIGradient_2 = Instance.new("UIGradient")
+local TextLabel = Instance.new("TextLabel")
+local UIGradient_3 = Instance.new("UIGradient")
+
+espprv.Name = "espprv"
+espprv.Parent = game.CoreGui
+espprv.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = espprv
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 2
+Frame.Position = UDim2.new(0.373175174, 0, 0.263665587, 0)
+Frame.Size = UDim2.new(0, 290, 0, 370)
+
+thethingdude.Name = "thethingdude"
+thethingdude.Parent = Frame
+thethingdude.AnchorPoint = Vector2.new(0.5, 0)
+thethingdude.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+thethingdude.BorderColor3 = Color3.fromRGB(30, 30, 30)
+thethingdude.BorderSizePixel = 2
+thethingdude.Position = UDim2.new(0.5, 0, 0.057, 0)
+thethingdude.Size = UDim2.new(0, 255, 0, 338)
+
+ImageLabel.Parent = thethingdude
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.Position = UDim2.new(-0.0686274543, 0, -0.0946745574, 0)
+ImageLabel.Size = UDim2.new(0, 290, 0, 360)
+ImageLabel.Image = "rbxassetid://8348117574"
+
+nameprv.Name = "nameprv"
+nameprv.Parent = thethingdude
+nameprv.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+nameprv.BackgroundTransparency = 1.000
+nameprv.Position = UDim2.new(-0.0625, 0, 0, 0)
+nameprv.Size = UDim2.new(0, 288, 0, 22)
+nameprv.Visible = false
+nameprv.Font = Enum.Font.Gotham
+nameprv.Text = "Name"
+nameprv.TextColor3 = Color3.fromRGB(255, 255, 255)
+nameprv.TextSize = 14.000
+nameprv.TextStrokeTransparency = 0.000
+
+boxpvrs.Name = "boxpvrs"
+boxpvrs.Parent = thethingdude
+boxpvrs.AnchorPoint = Vector2.new(0.5, 0)
+boxpvrs.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+boxpvrs.BackgroundTransparency = 1.000
+boxpvrs.Position = UDim2.new(0.5, 0, 0, 0)
+boxpvrs.Size = UDim2.new(0, 263, 0, 305)
+boxpvrs.Visible = false
+boxpvrs.ZIndex = 2
+
+boxprv2.Name = "boxprv2"
+boxprv2.Parent = boxpvrs
+boxprv2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+boxprv2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+boxprv2.BorderSizePixel = 0
+boxprv2.Position = UDim2.new(0.102661595, 0, 0.0721311495, 0)
+boxprv2.Size = UDim2.new(0, 210, 0, 1)
+
+boxprv3.Name = "boxprv3"
+boxprv3.Parent = boxpvrs
+boxprv3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+boxprv3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+boxprv3.BorderSizePixel = 0
+boxprv3.Position = UDim2.new(0.899999976, 0, 0.0719999969, 0)
+boxprv3.Size = UDim2.new(0, 1, 0, 271)
+
+boxprv4.Name = "boxprv4"
+boxprv4.Parent = boxpvrs
+boxprv4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+boxprv4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+boxprv4.BorderSizePixel = 0
+boxprv4.Position = UDim2.new(0.102661595, 0, 0.961512744, 0)
+boxprv4.Size = UDim2.new(0, 210, 0, 1)
+
+boxprv1.Name = "boxprv1"
+boxprv1.Parent = boxpvrs
+boxprv1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+boxprv1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+boxprv1.BorderSizePixel = 0
+boxprv1.Position = UDim2.new(0.102661595, 0, 0.0721311495, 0)
+boxprv1.Size = UDim2.new(0, 1, 0, 271)
+
+healthprv.Name = "healthprv"
+healthprv.Parent = thethingdude
+healthprv.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+healthprv.BorderColor3 = Color3.fromRGB(0, 0, 0)
+healthprv.Position = UDim2.new(0.0700000003, 0, 0.0649999976, 0)
+healthprv.Size = UDim2.new(0, 2, 0, 272)
+healthprv.Visible = false
+
+gunprv.Name = "gunprv"
+gunprv.Parent = thethingdude
+gunprv.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+gunprv.BackgroundTransparency = 1.000
+gunprv.Position = UDim2.new(-0.0625, 0, 0.867940843, 0)
+gunprv.Size = UDim2.new(0, 290, 0, 22)
+gunprv.Visible = false
+gunprv.Font = Enum.Font.Gotham
+gunprv.Text = "AK-47"
+gunprv.TextColor3 = Color3.fromRGB(255, 255, 255)
+gunprv.TextSize = 14.000
+gunprv.TextStrokeTransparency = 0.000
+
+guniprv.Name = "guniprv"
+guniprv.Parent = thethingdude
+guniprv.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+guniprv.BackgroundTransparency = 1.000
+guniprv.Position = UDim2.new(0.33203125, 0, 0.870595813, 0)
+guniprv.Size = UDim2.new(0, 88, 0, 60)
+guniprv.Visible = false
+guniprv.Image = "http://www.roblox.com/asset/?id=8346285114"
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(64, 52, 125)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(29, 23, 61))}
+UIGradient.Rotation = 90
+UIGradient.Parent = thethingdude
+
+outlinebox.Name = "outlinebox"
+outlinebox.Parent = thethingdude
+outlinebox.AnchorPoint = Vector2.new(0.5, 0)
+outlinebox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+outlinebox.BackgroundTransparency = 1.000
+outlinebox.Position = UDim2.new(0.5, 0, 0, 0)
+outlinebox.Size = UDim2.new(0, 263, 0, 305)
+outlinebox.Visible = false
+
+OutlinBox2.Name = "OutlinBox2"
+OutlinBox2.Parent = outlinebox
+OutlinBox2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+OutlinBox2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+OutlinBox2.BorderSizePixel = 0
+OutlinBox2.Position = UDim2.new(0.101000004, 0, 0.0700000003, 0)
+OutlinBox2.Size = UDim2.new(0, 212, 0, 3)
+
+OutlinBox3.Name = "OutlinBox3"
+OutlinBox3.Parent = outlinebox
+OutlinBox3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+OutlinBox3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+OutlinBox3.BorderSizePixel = 0
+OutlinBox3.Position = UDim2.new(0.899999976, -2, 0.0719999969, 0)
+OutlinBox3.Size = UDim2.new(0, 3, 0, 273)
+
+OutlinBox4.Name = "OutlinBox4"
+OutlinBox4.Parent = outlinebox
+OutlinBox4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+OutlinBox4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+OutlinBox4.BorderSizePixel = 0
+OutlinBox4.Position = UDim2.new(0.100000001, 0, 0.959999979, 0)
+OutlinBox4.Size = UDim2.new(0, 212, 0, 3)
+
+OutlinBox1.Name = "OutlinBox1"
+OutlinBox1.Parent = outlinebox
+OutlinBox1.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+OutlinBox1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+OutlinBox1.BorderSizePixel = 0
+OutlinBox1.Position = UDim2.new(0.101000004, 0, 0.0700000003, 0)
+OutlinBox1.Size = UDim2.new(0, 3, 0, 273)
+
+TopBar.Name = "TopBar"
+TopBar.Parent = Frame
+TopBar.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TopBar.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TopBar.BorderSizePixel = 2
+TopBar.Size = UDim2.new(0, 290, 0, 20)
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(64, 52, 125)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(29, 23, 61))}
+UIGradient_2.Rotation = 90
+UIGradient_2.Parent = TopBar
+
+TextLabel.Parent = TopBar
+TextLabel.AnchorPoint = Vector2.new(0.5, 0)
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.5, 0, 0, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 20)
+TextLabel.Font = Enum.Font.Gotham
+TextLabel.Text = "ESP Preview"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 14.000
+TextLabel.TextStrokeTransparency = 0.000
+
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(93, 77, 185)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(47, 37, 100))}
+UIGradient_3.Rotation = 90
+UIGradient_3.Parent = Frame
+
+
+
+	function PopupGui()
+		if espprv.Enabled == true then espprv.Enabled = false
+		else espprv.Enabled = true
+		end
+	end
+	
+	game:GetService("UserInputService").InputBegan:Connect(function(key)
+		if key.KeyCode == Enum.KeyCode.Delete then
+			PopupGui()
+		end
+	end)
+
+local function ZEROX_fake_script() -- Frame.LocalScript 
+	local script = Instance.new('LocalScript', Frame)
+
+	local gui = script.Parent
+	gui.Draggable = true
+	gui.Active = true
+end
+coroutine.wrap(ZEROX_fake_script)()
